@@ -18,6 +18,11 @@ struct CarRow: View {
             Text(Carmark.model)
             
             Spacer()
+            
+            if Carmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }

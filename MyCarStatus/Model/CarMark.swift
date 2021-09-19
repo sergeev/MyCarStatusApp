@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct CarMarkData: Hashable, Codable {
+struct CarMarkData: Hashable, Codable, Identifiable {
     var id: Int
     var mark: String
     var model: String
@@ -22,6 +22,8 @@ struct CarMarkData: Hashable, Codable {
     var steeringWheel: String
     var equipment: String
     var description: String
+    
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {

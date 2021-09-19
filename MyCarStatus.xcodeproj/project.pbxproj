@@ -17,6 +17,8 @@
 		578DB78226F51757007B4EE9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DB78126F51757007B4EE9 /* ModelData.swift */; };
 		578DB78926F51EA1007B4EE9 /* CarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DB78826F51EA1007B4EE9 /* CarRow.swift */; };
 		578DB78B26F52AE0007B4EE9 /* CarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DB78A26F52AE0007B4EE9 /* CarList.swift */; };
+		578DB78D26F72718007B4EE9 /* CarMarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DB78C26F72718007B4EE9 /* CarMarkDetail.swift */; };
+		578DB78F26F72C90007B4EE9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DB78E26F72C90007B4EE9 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		578DB78126F51757007B4EE9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		578DB78826F51EA1007B4EE9 /* CarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRow.swift; sourceTree = "<group>"; };
 		578DB78A26F52AE0007B4EE9 /* CarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarList.swift; sourceTree = "<group>"; };
+		578DB78C26F72718007B4EE9 /* CarMarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMarkDetail.swift; sourceTree = "<group>"; };
+		578DB78E26F72C90007B4EE9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				578DB76E26F4FD8C007B4EE9 /* ContentView.swift */,
 				578DB78826F51EA1007B4EE9 /* CarRow.swift */,
 				578DB78A26F52AE0007B4EE9 /* CarList.swift */,
+				578DB78C26F72718007B4EE9 /* CarMarkDetail.swift */,
+				578DB78E26F72C90007B4EE9 /* CircleImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,8 +189,10 @@
 			files = (
 				578DB77C26F4FFAB007B4EE9 /* CarImage.swift in Sources */,
 				578DB78026F50B25007B4EE9 /* CarMark.swift in Sources */,
+				578DB78D26F72718007B4EE9 /* CarMarkDetail.swift in Sources */,
 				578DB78226F51757007B4EE9 /* ModelData.swift in Sources */,
 				578DB78926F51EA1007B4EE9 /* CarRow.swift in Sources */,
+				578DB78F26F72C90007B4EE9 /* CircleImage.swift in Sources */,
 				578DB78B26F52AE0007B4EE9 /* CarList.swift in Sources */,
 				578DB76F26F4FD8C007B4EE9 /* ContentView.swift in Sources */,
 				578DB76D26F4FD8C007B4EE9 /* MyCarStatusApp.swift in Sources */,
