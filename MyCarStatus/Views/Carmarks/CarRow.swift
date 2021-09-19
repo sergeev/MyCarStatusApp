@@ -28,6 +28,7 @@ struct CarRow: View {
 }
 
 struct CarRow_Previews: PreviewProvider {
+    static var carmarkdatas = ModelData().carmarkdatas
     static var previews: some View {
         Group {
             CarRow(Carmark: carmarkdatas[0])

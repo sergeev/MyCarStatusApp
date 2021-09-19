@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct CarMarkDetail: View {
+    @EnvironmentObject var modelData: ModelData
     var Carmark: CarMarkData
+    
+    var carmarkIndex: Int {
+        modelData.carmarkdatas.firstIndex(where: { $0.id == Carmark.id })!
+        
+    }
     
     var body: some View {
         VStack {
             CircleImage(image: Carmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
+            
             VStack(alignment: .leading) {
-                Text(Carmark.mark)
-                    .font(.title)
-                    .foregroundColor(.primary)
+                HStack {
+                    Text(Carmark.mark)
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.primary)
+                    FavoriteButton(isSet: $modelData.carmarkdatas[carmarkIndex].isFavorite)
+                }
                 
                 HStack {
                     Text(Carmark.model)
@@ -39,6 +49,6 @@ struct CarMarkDetail: View {
 
 struct CarMarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        CarMarkDetail(Carmark: carmarkdatas[0])
+        CarMarkDetail(Carmark: ModelData().carmarkdatas[0])
     }
 }

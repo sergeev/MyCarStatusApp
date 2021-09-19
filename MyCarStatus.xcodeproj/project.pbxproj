@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571BE8A926F7B3530072A973 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571BE8A826F7B3530072A973 /* FavoriteButton.swift */; };
 		578DB76D26F4FD8C007B4EE9 /* MyCarStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DB76C26F4FD8C007B4EE9 /* MyCarStatusApp.swift */; };
 		578DB76F26F4FD8C007B4EE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DB76E26F4FD8C007B4EE9 /* ContentView.swift */; };
 		578DB77126F4FD8D007B4EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578DB77026F4FD8D007B4EE9 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		571BE8A826F7B3530072A973 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		578DB76926F4FD8C007B4EE9 /* MyCarStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCarStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578DB76C26F4FD8C007B4EE9 /* MyCarStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarStatusApp.swift; sourceTree = "<group>"; };
 		578DB76E26F4FD8C007B4EE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		571BE8AA26F7B43C0072A973 /* Carmarks */ = {
+			isa = PBXGroup;
+			children = (
+				578DB78826F51EA1007B4EE9 /* CarRow.swift */,
+				578DB78A26F52AE0007B4EE9 /* CarList.swift */,
+				578DB78C26F72718007B4EE9 /* CarMarkDetail.swift */,
+			);
+			path = Carmarks;
+			sourceTree = "<group>";
+		};
+		571BE8AB26F7B45C0072A973 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				578DB78E26F72C90007B4EE9 /* CircleImage.swift */,
+				571BE8A826F7B3530072A973 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		578DB76026F4FD8C007B4EE9 = {
 			isa = PBXGroup;
 			children = (
@@ -90,12 +111,10 @@
 		578DB78326F51B11007B4EE9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				571BE8AB26F7B45C0072A973 /* Helpers */,
+				571BE8AA26F7B43C0072A973 /* Carmarks */,
 				578DB77B26F4FFAB007B4EE9 /* CarImage.swift */,
 				578DB76E26F4FD8C007B4EE9 /* ContentView.swift */,
-				578DB78826F51EA1007B4EE9 /* CarRow.swift */,
-				578DB78A26F52AE0007B4EE9 /* CarList.swift */,
-				578DB78C26F72718007B4EE9 /* CarMarkDetail.swift */,
-				578DB78E26F72C90007B4EE9 /* CircleImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +209,7 @@
 				578DB77C26F4FFAB007B4EE9 /* CarImage.swift in Sources */,
 				578DB78026F50B25007B4EE9 /* CarMark.swift in Sources */,
 				578DB78D26F72718007B4EE9 /* CarMarkDetail.swift in Sources */,
+				571BE8A926F7B3530072A973 /* FavoriteButton.swift in Sources */,
 				578DB78226F51757007B4EE9 /* ModelData.swift in Sources */,
 				578DB78926F51EA1007B4EE9 /* CarRow.swift in Sources */,
 				578DB78F26F72C90007B4EE9 /* CircleImage.swift in Sources */,

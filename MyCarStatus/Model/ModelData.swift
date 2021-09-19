@@ -6,8 +6,11 @@
 //
 
 import Foundation
+import Combine
 
-var carmarkdatas: [CarMarkData] = load("CarMarkData.json")
+final class ModelData: ObservableObject {
+    @Published var carmarkdatas: [CarMarkData] = load("CarMarkData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
